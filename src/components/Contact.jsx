@@ -29,10 +29,9 @@ const Contact = () => {
         e.preventDefault();
         const { name, email, phone, message } = user;
             const data = await fetch('https://appliance-plus.herokuapp.com/submit', {
-                mode: 'no-cors',
                 method: "POST",
+                mode: 'no-cors',
                 headers: {
-                    "credentials": "include",
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
