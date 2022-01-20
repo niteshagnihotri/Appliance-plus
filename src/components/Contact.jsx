@@ -32,6 +32,7 @@ const Contact = () => {
                 mode: 'no-cors',
                 method: "POST",
                 headers: {
+                    "credentials": "include",
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
