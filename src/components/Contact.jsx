@@ -30,6 +30,7 @@ const Contact = () => {
         const { name, email, phone, message } = user;
             const data = await fetch('https://appliance-plus.herokuapp.com/submit', {
                 method: "POST",
+                mode:"no-cors",
                 headers: {
                     "Content-Type": "application/json"
                 },
