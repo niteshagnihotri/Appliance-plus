@@ -28,37 +28,41 @@ const Contact = () => {
     const SendData = async (e) => {
         e.preventDefault();
         const { name, email, phone, message } = user;
-            const data = await fetch('https://appliance-plus.herokuapp.com/submit', {
+
+        const data = await fetch('https://appliance-plus.herokuapp.com/submit', {
                 method: "POST",
-                mode:"no-cors",
                 headers: {
-                    "Content-Type": "application/json",
-                    "Access-Control-Allow-Origin":"*"
+                    "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
                     name, email, phone, message
                 })
-            });
-
-            if (data.status === 401) {
-                window.alert("Request Submission Failed");
-            }
-            else if(data.status !== 200){
-                window.alert("Please Enter All The Fields");
-            }
-            else {
+            }).then((res) => {
                 window.alert("Request submitted");
-                emailjs.send("service_g6w6lyb","template_zm4262t", user , 'user_rmGsiRXH0q76p1YcmYG9g')
-                .then((res) => {
-                    console.log(res.text);
-                    navigate('/');
-                }, (error) => {
-                    console.log(error.text);
+                console.log(res.text);
+                navigate('/');
+            })
+            .catch((error) => {
+                    console.log('Request failed', error);
+            });
+            // if (data.status === 401) {
+            //     window.alert("Request Submission Failed");
+            // }
+            // else if(data.status !== 200){
+            //     window.alert("Please Enter All The Fields");
+            // }
+            // else {
+            //     window.alert("Request submitted");
+            //     emailjs.send("service_g6w6lyb","template_zm4262t", user , 'user_rmGsiRXH0q76p1YcmYG9g')
+            //     .then((res) => {
+            //         console.log(res.text);
+            //         navigate('/');
+            //     }, (error) => {
+            //         console.log(error.text);
 
-                    setUser({name:"", email:"", phone:"", message:""});
-                });
+            //         setUser({name:"", email:"", phone:"", message:""});
+            //     });
             }
-    }
 
     return (
         <div className="contact w-100 py-0 h-auto font-Mont font-semibold">
