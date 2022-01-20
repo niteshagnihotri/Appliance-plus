@@ -2,7 +2,9 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://appliance-plus.herokuapp.com/",
+  "proxy": {
+    "/submit":"https://appliance-plus.herokuapp.com"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
