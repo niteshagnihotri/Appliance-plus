@@ -30,7 +30,6 @@ const Contact = () => {
         const { name, email, phone, message } = user;
             const data = await fetch('https://appliance-plus.herokuapp.com/submit', {
                 method: "POST",
-                mode: 'no-cors',
                 headers: {
                     "Content-Type": "application/json"
                 },
@@ -39,9 +38,14 @@ const Contact = () => {
                 })
             });
 
-            if (data.status === 200) {
+            if (data.status === 401) {
+                window.alert("Request Submission Failed");
+            }
+            else if(data.status !== 200){
+                window.alert("Please Enter All The Fields");
+            }
+            else {
                 window.alert("Request submitted");
-
                 emailjs.send("service_g6w6lyb","template_zm4262t", user , 'user_rmGsiRXH0q76p1YcmYG9g')
                 .then((res) => {
                     console.log(res.text);
@@ -51,13 +55,6 @@ const Contact = () => {
 
                     setUser({name:"", email:"", phone:"", message:""});
                 });
-
-            }
-            else if(data.status === 401){
-                window.alert("Please Enter All The Fields");
-            }
-            else {
-                window.alert("Request Submission Failed");
             }
     }
 
