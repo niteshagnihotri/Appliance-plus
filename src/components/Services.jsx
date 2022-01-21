@@ -28,21 +28,21 @@ const Services = () => {
                                 <span className="text-red-400">Air</span> Conditioner
                             </h3><hr className="w-48 my-0 mb-4" />
                             <p className="text-sm font-Mont text-justify flex items-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore excepturi iusto dolores illo aliquam! Maxime at aspernatur eveniet voluptates ullam officiis cumque reiciendis iure in, nulla, reprehenderit porro, sequi facilis nihil.
+                            We are known for our efficient and reliable AC repair and maintenance services. Our costs are economical, and services are second to none. We are a team of fully certified, experienced, skilled and focused professionals who can handle even the most critical tasks
                             </p>
                         </div>
                     </div>
 
-                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 ">
+                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 font-semibold">
                         <div className="flex flex-col items-center justify-center px-3 my-auto">
                             <h3 className="font-semibold my-3"><span className="text-red-400">Micro</span>Wave
                             </h3><hr className="w-60 my-0 mb-4" />
                             <p className="text-sm font-Mont text-justify flex items-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore excepturi iusto dolores illo aliquam! Maxime at aspernatur eveniet voluptates ullam officiis cumque reiciendis iure in, nulla, reprehenderit porro, sequi facilis nihil.
+                            If you face any problem related to your microwave or it is not working at all or it is unable to heat food, then you can call us. These units are ideal for homes of all sizes. We can handle any issue irrespective of its criticality and replace any damaged part.
                             </p>
                         </div>
                         <div className="w-auto sm:w-auto sm:flex sm:items-center sm:justify-center bg-slate-600">
-                            <img src={oven} alt="" className="w-44 mx-auto sm:w-auto sm:self-center my-auto hover:scale-110" />
+                            <img src={oven} alt="" className="w-44 mx-auto sm:px-2 sm:w-auto sm:self-center my-auto hover:scale-110" />
                         </div>
                     </div>
 
@@ -60,17 +60,17 @@ const Services = () => {
                                 <span className="text-red-400">Ref</span>rigerator
                             </h3><hr className="w-48 my-0 mb-4" />
                             <p className="text-sm font-Mont text-justify flex items-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore excepturi iusto dolores illo aliquam! Maxime at aspernatur eveniet voluptates ullam officiis cumque reiciendis iure in, nulla, reprehenderit porro, sequi facilis nihil.
+                                Our engineers are highly experienced and certified to handle different refrigerators of different brands. Whether you have an LG Refrigerator , Samsung refrigerator. we can handle them and give you complete peace of mind. 
                             </p>
                         </div>
                     </div>
 
-                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400">
+                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 font-semibold">
                         <div className="flex flex-col items-center justify-center px-3 my-auto">
                             <h3 className="font-semibold my-3"><span className="text-red-400">Wash</span>ing Machine
                             </h3><hr className="w-60 my-0 mb-4" />
                             <p className="text-sm font-Mont text-justify flex items-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore excepturi iusto dolores illo aliquam! Maxime at aspernatur eveniet voluptates ullam officiis cumque reiciendis iure in, nulla, reprehenderit porro, sequi facilis nihil.
+                            We can repair any washing machine of any brand and can troubleshoot a wide range of technical issues. We can handle starting problem, dryer problem, spin problem to any other technology-related issues. 
                             </p>
                         </div>
                         <div className="w-auto sm:w-auto sm:flex sm:items-center sm:justify-center bg-slate-600">
