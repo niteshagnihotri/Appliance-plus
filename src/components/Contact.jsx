@@ -46,23 +46,6 @@ const Contact = () => {
             .catch((error) => {
                     console.log('Request failed', error);
             });
-            // if (data.status === 401) {
-            //     window.alert("Request Submission Failed");
-            // }
-            // else if(data.status !== 200){
-            //     window.alert("Please Enter All The Fields");
-            // }
-            // else {
-            //     window.alert("Request submitted");
-            //     emailjs.send("service_g6w6lyb","template_zm4262t", user , 'user_rmGsiRXH0q76p1YcmYG9g')
-            //     .then((res) => {
-            //         console.log(res.text);
-            //         navigate('/');
-            //     }, (error) => {
-            //         console.log(error.text);
-
-            //         setUser({name:"", email:"", phone:"", message:""});
-            //     });
             }
 
     return (
