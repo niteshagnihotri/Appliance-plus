@@ -8,7 +8,7 @@ const Header = () => {
     const [showNav, setshowNav] = useState(false);
     return (
         <>
-            <div>
+            <div className="animate animate__fadeInUp">
                 <div className="header md:bg-zinc-800">
                     <div className="hidden md:w-10/12 md:mx-auto md:flex md:justify-between md:items-center text-white">
                         <div className="py-3 pl-5 ">

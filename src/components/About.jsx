@@ -6,7 +6,7 @@ import img3 from '../images/goal.png';
 function About() {
     return (
 
-        <div className="w-100 my-10" id="about">
+        <div className="w-100 my-10  animate animate__fadeInUp" id="about">
             <div className="lg:w-10/12 mx-auto">
                 <div className="flex flex-col lg1:flex-row">
                     <div className="lg:col items-start mr-5">
