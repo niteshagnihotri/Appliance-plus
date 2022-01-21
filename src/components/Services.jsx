@@ -13,7 +13,7 @@ const Services = () => {
                 <div className="md:w-50 mx-auto text-center">
                     <h2 className="pt-5 text-3xl font-QuickSand font-bold"><span className="text-red-800 font-extrabold text-4xl">Services</span> We Offer</h2>
                     <hr className="w-3/4 sm:w-1/4 mx-auto bg-black" />
-                    <p className="mx-3 font-Mont font-semibold">Applianceplus is one of the top electronic appliance service companies with years of experience and expertise. We can handle any type of appliance irrespective of its criticality. Whether it Is a geyser or a washing machine, we can handle it al</p>
+                    <p className="mx-3 font-Mont font-semibold">Applianceplus is one of the top home appliance repair service company with years of experience and expertise. We can handle any type of appliance irrespective of its criticality. Whether it Is a geyser or a washing machine, we can handle it all</p>
                 </div>
                 <h3 className="pt-10 text-center text-4xl font-Mont font-bold text-gray-600">We Repair - </h3>
 
