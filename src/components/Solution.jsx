@@ -19,18 +19,18 @@ const Solution = () =>{
                     <div className="text-center space-y-4 border-2 p-4 sm:p-10 bg-red-200 max-w-fit w-fit block sm:mx-6 mx-3">
                         <RiNumber1 className="text-4xl mx-auto rounded-full bg-red-500 p-2 hover:bg-yellow-500"/>
                         <h3 className="font-bold">Call Up</h3>
-                        <h6>Organically grown crops tend use natural fertilizers like manure to improve growth to plant</h6>
+                        <h6>You can get service related information by calling on the given number.</h6>
                     </div>
                     <div className="text-center space-y-4 border-2 p-4 sm:p-10 bg-yellow-200 w-auto block sm:mx-6 mx-3">
                         <RiNumber2 className="text-4xl mx-auto rounded-full bg-yellow-500 p-2 hover:bg-green-500"/>
                         <h3 className="font-bold">Form Fill up</h3>
-                        <h6>Organically grown crops tend use natural fertilizers like manure to improve growth to plant</h6>
+                        <h6>You can get other information related to service and services by filling the form</h6>
                         
                     </div>
                     <div className="text-center space-y-4 border-2 p-4 sm:p-10 bg-green-200 w-auto block sm:mx-6 mx-3">
                         <RiNumber3 className="text-4xl mx-auto rounded-full bg-green-500 p-2 hover:bg-yellow-500"/>
                         <h3 className="font-bold">Repair & Solve</h3>
-                        <h6>Organically grown crops tend use natural fertilizers like manure to improve growth to plant</h6>
+                        <h6>If you take service from us then customer satisfaction is our first priority.</h6>
                         
                     </div>
 

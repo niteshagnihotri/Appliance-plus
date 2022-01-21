@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className="flex flex-col w-fit h-auto sm:w-80 leading-loose">
                         <img src={img} alt="applianceplus" className=" w-56 p-0 m-0 lg1:ml-5" />
                         <p className="mt-4">
-                        Home Electronics Repair was established in 2017, The owner is a master in the plumbing industry (All Home Electronics) having more than 10 years of experience in residential, commercial and industrial services. Our vision of the company grew from personal concerns about customer service depleting over the years, which he witnessed first-hand in companies he worked for.
+                        Applianceplus was established in 2017, The owner is a master in the plumbing industry (All Home Electronics) having more than 10 years of experience in residential, commercial and industrial services. Our vision of the company grew from personal concerns about customer service depleting over the years, which he witnessed first-hand in companies he worked for.
                         </p>
                     </div>
                     <div className="flex flex-col space-y-10 lg1:px-5 ">
@@ -59,7 +59,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-100 text-left mt-5 p-10 text-gray-400">
+            <div className="w-100 mt-5 py-2  text-left sm:p-10 text-gray-400 leading-8 sm:leading-loose">
             Copyright © Applianceplus 2022. All right reserved. Designed & Developed by <Link to="//niteshagnihotri.github.io/" className="underline-offset-4">Nitesh Agnihotri</Link>
             </div>
         </div>
