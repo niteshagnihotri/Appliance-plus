@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="w-100 mt-5 py-2 pl-2  text-left sm:p-10 text-gray-400 leading-8 sm:leading-loose">
-            Copyright © Applianceplus 2022. All right reserved. Designed & Developed by <Link to="//niteshagnihotri.github.io/" className="underline-offset-4">Nitesh Agnihotri</Link>
+            Copyright © Applianceplus 2022. All right reserved. Designed & Developed by <Link to="//niteshagnihotri.github.io/" className="no-underline text-slate-300">Nitesh Agnihotri</Link>
             </div>
         </div>
 

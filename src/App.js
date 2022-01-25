@@ -25,7 +25,6 @@ function App() {
         
         <div className="loader bg-slate-700" >
             <ScaleLoader color={'#27B0D2'} loading={loading} size={50} />
-        
         </div>
           :
           <>

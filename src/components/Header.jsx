@@ -8,7 +8,7 @@ const Header = () => {
     const [showNav, setshowNav] = useState(false);
     return (
         <>
-            <div>
+            <div className="sticky top-0 z-50 ">
                 <div className="header md:bg-zinc-800">
                     <div className="hidden md:w-10/12 md:mx-auto md:flex md:justify-between md:items-center text-white">
                         <div className="py-3 pl-5 ">
@@ -22,7 +22,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="bg-white w-100">
                     <div className="bg-white md:w-10/12 mx-auto md:flex items-center justify-between font-QuickSand">
                         <div className="flex items-center justify-between">
                             <img className="w-56 p-0 m-0 lg1:ml-5" src={img1} alt="logo" />
@@ -34,13 +34,13 @@ const Header = () => {
                             <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/services">Services</Link>
                             <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/contact">Contact</Link>
                             <div className='md:hidden bottom-10 absolute font-semibold space-y-5 -translate-x-3'>
-                                <div className="">
+                                <div>
                                     <i class="fa fa-phone px-2 text-black" style={{ "font-size": "16px" }}></i>
                                     <span onClick={() => window.location = 'tel:+918871653988'}>+918871653988</span>
                                 </div>
-                                <div className="overflow-x-scroll">
+                                <div>
                                     <i class="fa fa-envelope px-2 text-black" style={{ "font-size": "14px" }}></i>
-                                    <span className='text-lg ' onClick={() => window.location = 'mailto:appliancesplus2022@gmail.com'}>appliancesplus2022@gmail.com</span>
+                                    <span className='text-base 402:text-lg ' onClick={() => window.location = 'mailto:appliancesplus2022@gmail.com'}>appliancesplus2022@gmail.com</span>
                                 </div>
 
                             </div>

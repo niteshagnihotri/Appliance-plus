@@ -14,7 +14,8 @@ module.exports = {
         'contactbg':"url('./images/contactbg.jpg')"
       },
       screens: {
-        'lg1':'932px'
+        'lg1':'932px',
+        "402":'402px',
       },
       transitionProperty:{
         'left':'left'
@@ -24,4 +25,7 @@ module.exports = {
   plugins: [
     require('tailwind-scrollbar')
   ],
+  variants: {
+    scrollBehavior: ['motion-safe', 'motion-reduce', 'responsive']
+  }
 }
