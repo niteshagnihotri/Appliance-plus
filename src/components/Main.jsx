@@ -13,7 +13,7 @@ const Main = () => {
                     <h3 className="font-bold">
                         <span className="text-red-800 leading-tight text-3xl">Repair Service</span> in Bhopal, M.P
                     </h3>
-                    <Link onClick={()=>window.location="tel:+918871653988"} className="btn btn-danger mb-10 shadow-2xl" to="">Get Service</Link>
+                    <Link onClick={()=>window.location="tel:+918871653988"} className="btn btn-danger mb-10 shadow-md" to="">Book Appointment Now</Link>
                 </div>
             </div>
         </div>

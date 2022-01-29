@@ -94,7 +94,7 @@ const Contact = () => {
                             </div>
                             <div className="text-left lg:pr-5">
                                 <h3 className="font-SourceSans tracking-wide font-bold"> Address:</h3>
-                                <h4 className="font-Raleway font-bold">Mp Nagar, Bhopal M.P</h4>
+                                <h4 className="font-Raleway font-bold">M.P Nagar, Bhopal M.P</h4>
                             </div>
                         </div>
                         <div className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">

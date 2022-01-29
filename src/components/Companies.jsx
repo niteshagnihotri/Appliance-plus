@@ -20,7 +20,7 @@ const Companies = () => {
 
         <div className="w-100 flex h-auto items-center pb-10 animate animate__fadeInUp">
             <div className="w-10/12 lg:w-9/12 mx-auto flex flex-col my-12">
-                <h2 className="text-center text-2xl sm:text-4xl tracking-wider leading-loose md:leading-0 font-QuickSand font-bold">We Service <span className="text-red-800 font-extrabold text-3xl sm:text-5xl">All Makes & Models
+                <h2 className="text-center text-2xl sm:text-4xl tracking-wider leading-loose md:leading-0 font-QuickSand font-bold">We Service <span className="text-red-800 font-extrabold ">All Makes & Models
                 </span></h2><div className='w-48 my-2 py-1 border-b-4 border-b-red-400 sm:mx-auto ' />
 
                 <div className="w-auto flex lg:flex-row py-14 md:my-0 overflow-auto scrollbar-thin scrollbar-thumb-slate-400 scrollbar-track-slate-100 space-x-10">
