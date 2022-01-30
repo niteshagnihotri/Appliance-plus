@@ -4,7 +4,7 @@ import '../App.css';
 const Quote = () => {
     return (
 
-        <div className="Qoute w-100 h-auto bg-slate-600">
+        <div className="Qoute w-100 h-auto bg-slate-600 bg-fixed">
             <div className="py-4 h-auto lg:w-10/12 mx-auto">
                 <div className="w-10/12 mx-auto bg-gray-100 bg-opacity-50 text-center flex flex-col items-center space-y-10 py-16 my-28 font-Raleway">
                     <h1 >
