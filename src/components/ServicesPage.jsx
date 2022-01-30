@@ -2,12 +2,12 @@ import Services from "./Services";
 
 function ServicesPage() {
     return (
-        <>
+        <div>
             <Services />
-            <div className="bg-blue-100 font-QuickSand px-4">
+            <div className="bg-red-50 font-QuickSand px-4">
                 <div className="py-4 h-auto lg:w-10/12 mx-auto space-y-14">
                     <div className="mt-10 space-y-7">
-                        <h1 className="font-bold text-center">Best AC Repair in Bhopal</h1>
+                        <h1 className="font-bold text-center">Best <span className="text-red-800">AC Repair</span> Service in Bhopal</h1>
                         <h6 className="leading-6 text-justify" >Applianceplus is one of the best and fast-growing services center for Ac Repair, We are Brand certified AC Repair center in Bhopal. We are providing the best and affordable services for top brand AC and all kind of home appliances.
                             Due to the increase in the hot and humid conditions, we always need air conditioning units. AC units not only keep use cool and comfortable in high temperature conditions, but save us from harsh external environment. That is why it makes sense to keep them in the best possible shape so that they can serve us even in the extreme temperatures. Some people often neglect their repair and maintenance as a result AC units trend to consume more electricity, run disproportionately and may even fail in extreme temperature conditions.</h6>
                     </div>
@@ -27,10 +27,10 @@ function ServicesPage() {
             </div>
 
 
-            <div className="bg-pink-50 font-QuickSand px-4">
+            <div className="bg-blue-50 font-QuickSand px-4">
                 <div className="py-4 h-auto lg:w-10/12 mx-auto space-y-14">
                     <div className="mt-10 space-y-7">
-                        <h1 className="font-bold text-center">Refrigerator Repair Services Bhopal</h1>
+                        <h1 className="font-bold text-center"><span className="text-red-800">Refrigerator Repair</span> Service in Bhopal</h1>
                         <h6 className="leading-6 text-justify" >Refrigerators are our best friends they not only help us to keep our fruits, vegetables and other food items safe, but also fresh for long. Today, companies provide the most innovative and advanced refrigerators at the most competitive rates. They keep your food fresh and are highly convenient, too. Indeed, you can keep a wide range of perishable items in it to safeguard them.
 
                             <br />Most people rely on refrigerators to keep items in deep freezers. That is why they choose bottom and top freezers because they are known for utmost cooling. Unquestionably, refrigerators are our best friend. Today, people have a wide range of options when it comes to choosing family-focused refrigerators.</h6>
@@ -67,7 +67,7 @@ function ServicesPage() {
             <div className="bg-green-50 font-QuickSand px-4">
                 <div className="py-4 h-auto lg:w-10/12 mx-auto space-y-14">
                     <div className="mt-10 space-y-7">
-                        <h1 className="font-bold text-center">Washing Machine Repair in Bhopal</h1>
+                        <h1 className="font-bold text-center"><span className="text-red-800">Washing Machine Repair</span> Service in Bhopal</h1>
                         <h6 className="leading-6 text-justify" >
                             Modern Washing Machines are nothing short of excellence. They are designed to provide utmost comfort and convenience to consumers. That us why they have become the most essential commodities in today’s environment. People also started relying on the features and capabilities of washing machines. Modern companies are supplying the finest quality and high capacity washing machines that can handle load easily and can perform under any circumstances. They not only save the time and energy of people, but also provide them complete peace of mind at the comfort of their home only.
                             <br />People can buy any type of machine as per their budget and convenience from steam wash to front load. Besides that, these versatile and smart machines can remove any type of stains without consuming extra time. Indeed, they can easily remove and kill bacteria, silently wash clothes and are virtually maintenance free.</h6>
@@ -103,7 +103,7 @@ function ServicesPage() {
             <div className="bg-red-50 font-QuickSand px-4">
                 <div className="py-4 h-auto lg:w-10/12 mx-auto space-y-14">
                     <div className="mt-10 space-y-7">
-                        <h1 className="font-bold text-center">Microwave Oven Repair Bhopal</h1>
+                        <h1 className="font-bold text-center"><span className="text-red-800">Microwave Oven</span> Repair Service in Bhopal</h1>
                         <h6 className="leading-6 text-justify" >
                             We all know that the trend of cooking is increasing like never before. More and more people choose Microwave Oven to heat and prepare food that is why the demand of Microwave Ovens are rapidly increasing. Indeed, most of the people have Microwave Oven in their homes. Microwave Ovens are designed to help people and minimize their efforts and increase their comfort as well. These units are ideal for homes of all sizes. They are not only fast and relevant, but also ideal for a wide range of cooking. Today, it is easy to buy Microwave Ovens of different world-class brands (LG, IFB, Godrej, Samsung, Whirlpool and Haier). Modern units are not only fully featured, but also have many functions.
                             <br />We can diagnose any problem and provide immediate solution to people. If you face any problem related to your microwave or it is not working at all or it is unable to heat food, then you can call us. We can handle any issue irrespective of its criticality and replace any damaged part.</h6>
@@ -135,7 +135,7 @@ function ServicesPage() {
                     </div>
                 </div>
               </div>
-        </>
+           </div>
     );
 }
 
