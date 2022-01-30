@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import img1 from '../images/logowhite1.png';
 import { Link } from 'react-router-dom';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
+import {GrClose} from 'react-icons/gr';
 import '../App.css';
 
 const Header = () => {
@@ -25,8 +26,13 @@ const Header = () => {
                 <div className="bg-white w-100">
                     <div className="bg-white md:w-10/12 mx-auto md:flex items-center justify-between font-QuickSand">
                         <div className="flex items-center justify-between">
-                            <img className="w-56 p-0 m-0 lg1:ml-5" src={img1} alt="logo" />
-                            <HiOutlineMenuAlt3 onClick={() => { setshowNav(!showNav) }} className='md:hidden block w-10 h-auto p-2 mr-3 cursor-pointer' />
+                           <Link to="/"><img className="w-56 p-0 m-0 lg1:ml-5" src={img1} alt="logo" /></Link> 
+                            {
+                                showNav ? 
+                                <GrClose onClick={() => { setshowNav(!showNav) }} className='md:hidden block w-10 h-auto p-2 mr-3 cursor-pointer transition-transform' />
+                                        :
+                                <HiOutlineMenuAlt3 onClick={() => { setshowNav(!showNav) }} className='md:hidden block w-10 h-auto p-2 mr-3 cursor-pointer' />
+                            }
                         </div>
                         <ul className={(showNav ? "left-0" : "-left-full") + " fixed md:static md:flex flex md:flex-row flex-col      xl:space-x-12 lg:space-x-6 md:space-y-0 md:space-x-5 space-y-10    md:w-auto w-10/12 md:my-auto  md:bg-transparent bg-gray-300 bg-opacity-90    py-4 pl-4 sm:pl-10 lg1:mr-3   bottom-0 top-16    md:text-lg text-xl font-bold   transition-left z-10"}>
                             <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600 " to="/">Home</Link>
