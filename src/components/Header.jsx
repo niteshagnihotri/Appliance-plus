@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="bg-white w-100">
                     <div className="bg-white md:w-10/12 mx-auto md:flex items-center justify-between font-QuickSand">
                         <div className="flex items-center justify-between">
-                           <Link to="/"><img className="w-56 p-0 m-0 lg1:ml-5" src={img1} alt="logo" /></Link> 
+                           <Link to="/"><img className="w-56 p-0 m-0 lg1:ml-5" src={img1} alt="applianceplus - best home appliances repair service in bhopal" /></Link> 
                             {
                                 showNav ? 
                                 <GrClose onClick={() => { setshowNav(!showNav) }} className='md:hidden block w-10 h-auto p-2 mr-3 cursor-pointer transition-transform' />

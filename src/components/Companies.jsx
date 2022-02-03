@@ -24,20 +24,20 @@ const Companies = () => {
                 </span></h2><div className='w-48 my-2 py-1 border-b-4 border-b-red-400 sm:mx-auto ' />
 
                 <div className="w-auto flex lg:flex-row py-14 md:my-0 overflow-auto scrollbar-thin scrollbar-thumb-slate-400 scrollbar-track-slate-100 space-x-10">
-                    <img className="companiesimg" src={lg} alt="" />
-                    <img className="companiesimg" src={samsung} alt="" />
-                    <img className="companiesimg" src={whirlpool} alt="" />
-                    <img className="companiesimg" src={godrej} alt="" />
-                    <img className="companiesimg" src={Videocon} alt="" />
-                    <img className="companiesimg" src={hitachi} alt="" />
-                    <img className="companiesimg" src={haier} alt="" />
-                    <img className="companiesimg" src={bosch} alt="" />
-                    <img className="companiesimg" src={Onida} alt="" />
-                    <img className="companiesimg" src={siemens} alt="" />
-                    <img className="companiesimg" src={bluestar} alt="" />
-                    <img className="companiesimg" src={ps} alt="" />
-                    <img className="companiesimg" src={huawei} alt="" />
-                    <img className="companiesimg" src={bpl} alt="" />
+                    <img className="companiesimg" src={lg} alt="lg electronic item repair service" />
+                    <img className="companiesimg" src={samsung} alt="samsung electronic item repair service" />
+                    <img className="companiesimg" src={whirlpool} alt="whirlpool electronic item repair service" />
+                    <img className="companiesimg" src={godrej} alt="godrej electronic item repair service" />
+                    <img className="companiesimg" src={Videocon} alt="Videocon electronic item repair service" />
+                    <img className="companiesimg" src={hitachi} alt="hitachi electronic item repair service" />
+                    <img className="companiesimg" src={haier} alt="haier electronic item repair service" />
+                    <img className="companiesimg" src={bosch} alt="bosch electronic item repair service" />
+                    <img className="companiesimg" src={Onida} alt="Onida electronic item repair service" />
+                    <img className="companiesimg" src={siemens} alt="siemens electronic item repair service" />
+                    <img className="companiesimg" src={bluestar} alt="bluestar electronic item repair service" />
+                    <img className="companiesimg" src={ps} alt="ps electronic item repair service" />
+                    <img className="companiesimg" src={huawei} alt="huawei electronic item repair service" />
+                    <img className="companiesimg" src={bpl} alt="bpl electronic item repair service" />
                 </div>
             </div>
         </div>

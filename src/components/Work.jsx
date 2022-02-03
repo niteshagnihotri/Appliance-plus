@@ -47,7 +47,7 @@ function Work() {
                     </div>
 
                     <div className="flex w-100 items-start mr-5">
-                        <img src={img} className="h-100 w-auto" alt="" />
+                        <img src={img} className="h-100 w-auto" alt="Quick repair service in bhopal" />
                     </div>
                 </div>
             </div>

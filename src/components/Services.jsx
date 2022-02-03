@@ -21,7 +21,7 @@ const Services = () => {
 
                     <div className="w-10/12 bg-slate-600 mx-auto shadow shadow-violet-400 sm:flex sm:flex-row ">
                         <div className="w-auto sm:w-auto bg-slate-200 sm:flex sm:items-center sm:justify-center" >
-                            <img src={ac} alt="" className="w-56 sm:w-auto mx-auto sm:self-center my-auto hover:scale-110" />
+                            <img src={ac} alt="Ac repair service in bhopal" className="w-56 sm:w-auto mx-auto sm:self-center my-auto hover:scale-110" />
                         </div>
                         <div className="flex flex-col items-center justify-center px-3 my-auto text-white ">
                             <h3 className="font-semibold my-3">
@@ -42,7 +42,7 @@ const Services = () => {
                             </p>
                         </div>
                         <div className="w-auto sm:w-auto sm:flex sm:items-center sm:justify-center bg-slate-600">
-                            <img src={oven} alt="" className="w-44 mx-auto sm:px-2 sm:w-auto sm:self-center my-auto hover:scale-110" />
+                            <img src={oven} alt="microwave oven repair service in bhopal" className="w-44 mx-auto sm:px-2 sm:w-auto sm:self-center my-auto hover:scale-110" />
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Services = () => {
 
                     <div className="w-10/12 bg-slate-600 mx-auto shadow shadow-violet-400 sm:flex sm:flex-row">
                         <div className="w-auto sm:w-auto bg-slate-200 sm:flex sm:items-center sm:justify-center" >
-                            <img src={fg} alt="" className="w-56 sm:w-auto mx-auto sm:self-center my-auto hover:scale-110" />
+                            <img src={fg} alt="Refrigerator repair service in bhopal" className="w-56 sm:w-auto mx-auto sm:self-center my-auto hover:scale-110" />
                         </div>
                         <div className="flex flex-col items-center justify-center px-3 my-auto text-white ">
                             <h3 className="font-semibold my-3">
@@ -74,7 +74,7 @@ const Services = () => {
                             </p>
                         </div>
                         <div className="w-auto sm:w-auto sm:flex sm:items-center sm:justify-center bg-slate-600">
-                            <img src={wm} alt="" className="mx-auto w-44 sm:w-96 sm:self-center my-auto hover:scale-110" />
+                            <img src={wm} alt="washing machine repair service in bhopal" className="mx-auto w-44 sm:w-96 sm:self-center my-auto hover:scale-110" />
                         </div>
                     </div>
                 </div>

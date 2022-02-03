@@ -9,7 +9,7 @@ function About() {
             <div className="lg:w-10/12 mx-auto">
                 <div className="flex flex-col lg1:flex-row">
                     <div className="lg:col items-start mr-5">
-                        <img src={img1} className="h-100 w-auto lg:w-[50em]" alt="" />
+                        <img src={img1} className="h-100 w-auto lg:w-[50em]" alt="Applianceplus - Home Electronic Repair Service in Bhopal" />
                     </div>
                     <div className="lg:col sm:mx-10 px-3">
                         <div className="mt-20 font-QuickSand lg1:text-left">
