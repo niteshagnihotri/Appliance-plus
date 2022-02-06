@@ -1,4 +1,5 @@
 import Companies from './Companies';
+import {Button} from 'react-bootstrap';
 
 function AboutPage() {
     return (
@@ -17,12 +18,13 @@ function AboutPage() {
                     </div>
                     <div>
                         <h3 className="font-bold"> Reason to Choose Us ?</h3>
-                        <p>Home appliance Repair is one of the top electronic appliance service companies with years of experience and expertise. We can handle any type of appliance irrespective of its criticality. Whether it Is a geyser or a washing machine, we can handle it all.</p>
+                        <p>Applianceplus is one of the top electronic appliance service companies with years of experience and expertise. We can handle any type of appliance irrespective of its criticality. Whether it Is a geyser or a washing machine, we can handle it all.</p>
                     </div>
                     <div>
                         <h3 className="font-bold">Our Motto : Take Action in Daily Situations to Ensure Our Client Is Well-Informed and Pleased</h3>
-                        <p>At Home Electronics Repair, you will find that you not only receive excellent (superior) service but that someone is always reachable when you need us. To us, that’s all part of “Making it Happen.” Call us today to find out how we can help you with all of your Home Electronics needs.</p>
-                    </div>
+                        <p>At Applianceplus, you will find that you not only receive excellent (superior) service but that someone is always reachable when you need us. To us, that’s all part of “Making it Happen.” Call us today to find out how we can help you with all of your Home Electronics needs.</p>
+                    </div>     
+                    <Button onClick={()=>window.location = 'tel:+918871653988'} variant="danger">Call Now </Button>
                 </div>
             </div>
             </div>
