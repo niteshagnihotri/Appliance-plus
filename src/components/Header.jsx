@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import img1 from '../images/logowhite1.png';
 import { Link } from 'react-router-dom';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
@@ -7,10 +8,12 @@ import '../App.css';
 
 const Header = () => {
     const [showNav, setshowNav] = useState(false);
+    let history = useNavigate();
+
     return (
         <>
-            <div className="sticky top-0 z-50 ">
-                <div className="header md:bg-zinc-800">
+            <div className="sticky top-0 z-50 shadow-2xl">
+                <div className="md:bg-zinc-800">
                     <div className="hidden md:w-10/12 md:mx-auto md:flex md:justify-between md:items-center text-white">
                         <div className="py-3 pl-5 ">
                             <i class="fa fa-phone px-2 text-yellow-400" style={{ "font-size": "16px" }}></i>
@@ -26,7 +29,7 @@ const Header = () => {
                 <div className="bg-white w-100">
                     <div className="bg-white md:w-10/12 mx-auto md:flex items-center justify-between font-QuickSand">
                         <div className="flex items-center justify-between">
-                           <Link to="/"><img className="w-56 p-0 m-0 lg1:ml-5" src={img1} alt="applianceplus - best home appliances repair service in bhopal" /></Link> 
+                           <img className="w-56 p-0 m-0 lg1:ml-5 cursor-pointer" src={img1} onClick={()=>history('/')} alt="applianceplus - best home appliances repair service in bhopal" />
                             {
                                 showNav ? 
                                 <GrClose onClick={() => { setshowNav(!showNav) }} className='md:hidden block w-10 h-auto p-2 mr-3 cursor-pointer transition-transform' />
@@ -35,7 +38,7 @@ const Header = () => {
                             }
                         </div>
                         <ul className={(showNav ? "left-0" : "-left-full") + " fixed md:static md:flex flex md:flex-row flex-col      xl:space-x-12 lg:space-x-6 md:space-y-0 md:space-x-5 space-y-10    md:w-auto w-10/12 md:my-auto  md:bg-transparent bg-gray-300 bg-opacity-90    py-4 pl-4 sm:pl-10 lg1:mr-3   bottom-0 top-16    md:text-lg text-xl font-bold   transition-left z-10"}>
-                            <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600 " to="/">Home</Link>
+                            <Link onClick={()=>{setshowNav(false)}} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600 " to="/" >Home</Link>
                             <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/about">About Us</Link>
                             <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/services">Services</Link>
                             <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/contact">Contact</Link>
