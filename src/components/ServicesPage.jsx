@@ -2,7 +2,7 @@ import Services from "./Services";
 
 function ServicesPage() {
     return (
-        <div className="animate animate__fadeInUp">
+        <div className="animate__animated animate__fadeInUp">
             <Services />
             <div className="bg-red-50 font-QuickSand px-4">
                 <div className="py-4 h-auto lg:w-10/12 mx-auto space-y-14">

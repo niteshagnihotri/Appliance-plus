@@ -17,7 +17,6 @@ const Header = () => {
                     <div className="hidden md:w-10/12 md:mx-auto md:flex md:justify-between md:items-center text-white">
                         <div className="py-3 pl-5 ">
                             <i class="fa fa-phone px-2 text-yellow-400" style={{ "font-size": "16px" }}></i>
-                            <span></span>
                             <Link to="" style={{ textDecoration: "none", color: "white" }} className='hover:text-slate-400' onClick={() => window.location = 'tel:+918871653988'}>+918871653988</Link>
                         </div>
                         <div className="py-2 pr-5 text-right font-QuickSand">

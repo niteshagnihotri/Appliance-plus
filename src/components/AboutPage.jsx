@@ -4,14 +4,11 @@ import {Button} from 'react-bootstrap';
 function AboutPage() {
     return (
         <>
-        <div className="bg-red-50 font-QuickSand">
+        <div className="bg-red-50 font-QuickSand animate__animated animate__fadeInUp">
             <div className="py-4 h-auto lg:w-10/12 mx-auto">
                 <h1 className="text-4xl font-Raleway font-bold text-center mt-3 mb-5">About Us</h1>
                 <div className="my-10 space-y-10 px-4">
                     <div>
-                        <h3 className="font-bold">
-                            About Applianceplus -
-                        </h3>
                         <p>
                             Applianceplus is an ideal company that can repair and maintain washing machines, refrigerator, microwave and much more. We have years of experience and expertise in the domain. We can handle any type of appliance irrespective of its company & complexity. Applianceplus was established in 2010, The owner is a master in the plumbing industry (All Home Electronics) having more than 10 years of experience in residential, commercial and industrial services.
                         </p>
