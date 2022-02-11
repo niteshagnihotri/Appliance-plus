@@ -3,6 +3,7 @@ import img from '../images/testwb.png';
 import {MdQuickreply} from 'react-icons/md';
 import {HiFastForward} from 'react-icons/hi';
 import {GiAutoRepair} from 'react-icons/gi';
+import 'animate.css';
 
 function Work() {
     return (
@@ -10,7 +11,7 @@ function Work() {
         <div className="w-100 h-auto flex items-center bg-slate-800 text-white lg1:py-14 py-5">
             <div className="lg:w-10/12 mx-auto">
                 <div className="flex flex-col-reverse lg1:flex-row">
-                    <div className="sm:mx-10 px-3">
+                    <div className="sm:mx-10 px-3 animate__animated animate__fadeInLeft">
                         <div className="mt-10 font-QuickSand text-left mb-5 border-b">
                             <h5 className="text-uppercase ">What We Do </h5>
                             <h3 className="py-3 text-4xl sm:text-5xl leading-tight font-Raleway">Why Choose Us </h3>
@@ -46,7 +47,7 @@ function Work() {
                         </div>
                     </div>
 
-                    <div className="flex w-100 items-start mr-5">
+                    <div className="flex w-100 items-start mr-5 animate__animated animate__fadeInUp">
                         <img src={img} className="h-100 w-auto" alt="Quick repair service in bhopal" />
                     </div>
                 </div>

@@ -2,16 +2,17 @@ import React from "react";
 import img1 from '../images/about.png';
 import img2 from '../images/group.png';
 import img3 from '../images/goal.png';
+import 'animate.css';
 
 function About() {
     return (
-        <div className="w-100 my-10  animate animate__fadeInUp" id="about">
+        <div className="w-100 my-10 " id="about">
             <div className="lg:w-10/12 mx-auto">
                 <div className="flex flex-col lg1:flex-row">
-                    <div className="lg:col items-start mr-5">
+                    <div className="lg:col items-start mr-5 animate__animated animate__fadeInLeft">
                         <img src={img1} className="h-100 w-auto lg:w-[50em]" alt="Applianceplus - Home Electronic Repair Service in Bhopal" />
                     </div>
-                    <div className="lg:col sm:mx-10 px-3">
+                    <div className="lg:col sm:mx-10 px-3 animate__animated animate__fadeInRight">
                         <div className="mt-20 font-QuickSand lg1:text-left">
                             <h3 className="text-uppercase font-bold text-lime-500 text-xl tracking-widest">Welcome to Applianceplus</h3>
                             <h3 className="py-3 text-4xl sm:text-5xl leading-tight font-semibold">Appliance<span className="text-red-500">plus</span><span className="text-xl sm:text-3xl font-SourceSans font-medium"> - We're Here To Help Your Repair Service</span></h3>

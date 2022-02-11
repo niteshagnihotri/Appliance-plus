@@ -37,10 +37,10 @@ const Header = () => {
                             }
                         </div>
                         <ul className={(showNav ? "left-0" : "-left-full") + " fixed md:static md:flex flex md:flex-row flex-col      xl:space-x-12 lg:space-x-6 md:space-y-0 md:space-x-5 space-y-10    md:w-auto w-10/12 md:my-auto  md:bg-transparent bg-gray-300 bg-opacity-90    py-4 pl-4 sm:pl-10 lg1:mr-3   bottom-0 top-16    md:text-lg text-xl font-bold   transition-left z-10"}>
-                            <Link onClick={()=>{setshowNav(false)}} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600 " to="/" >Home</Link>
-                            <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/about">About Us</Link>
-                            <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/services">Services</Link>
-                            <Link onClick={()=>setshowNav(false)} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/contact">Contact</Link>
+                            <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/" >Home</Link>
+                            <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/about">About Us</Link>
+                            <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/services">Services</Link>
+                            <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:p-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/contact">Contact</Link>
                             <div className='md:hidden bottom-10 absolute font-semibold space-y-5 -translate-x-3'>
                                 <div>
                                     <i class="fa fa-phone px-2 text-black" style={{ "font-size": "16px" }}></i>
