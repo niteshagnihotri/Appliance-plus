@@ -10,16 +10,16 @@ const Services = () => {
 
         <div className="w-100 bg-red-100">
             <div className="py-4 h-auto lg:w-10/12 mx-auto">
-                <div className="md:w-50 mx-auto text-center animate__animated animate__fadeInUp">
+                <div className="md:w-50 mx-auto text-center">
                     <h2 className="pt-5 text-3xl font-QuickSand font-bold"><span className="text-red-800 font-extrabold text-4xl">Services</span> We Offer</h2>
                     <hr className="w-3/4 sm:w-1/4 mx-auto bg-black" />
                     <p className="mx-3 font-Mont font-semibold">Applianceplus is one of the top home appliance repair service company with years of experience and expertise. We can handle any type of appliance irrespective of its criticality. Whether it Is a geyser or a washing machine, we can handle it all</p>
                 </div>
-                <h3 className="pt-10 text-center text-4xl font-Mont font-bold text-gray-600 animate__animated animate__fadeInUp">We Repair - </h3>
+                <h3 className="pt-10 text-center text-4xl font-Mont font-bold text-gray-600">We Repair - </h3>
 
                 <div className="flex flex-col my-5 space-x-5 space-y-10 lg1:space-y-0 lg1:flex-row lg1:px-10">
 
-                    <div className="w-10/12 bg-slate-600 mx-auto shadow shadow-violet-400 sm:flex sm:flex-row animate__animated animate__fadeIn">
+                    <div className="w-10/12 bg-slate-600 mx-auto shadow shadow-violet-400 sm:flex sm:flex-row">
                         <div className="w-auto sm:w-auto bg-slate-200 sm:flex sm:items-center sm:justify-center" >
                             <img src={ac} alt="Ac repair service in bhopal" className="w-56 sm:w-auto mx-auto sm:self-center my-auto hover:scale-110" />
                         </div>
@@ -33,7 +33,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 font-semibold animate__animated animate__fadeIn">
+                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 font-semibold">
                         <div className="flex flex-col items-center justify-center px-3 my-auto">
                             <h3 className="font-semibold my-3"><span className="text-red-400">Micro</span>Wave
                             </h3><hr className="w-60 my-0 mb-4" />
@@ -49,7 +49,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="flex flex-col my-5 space-x-5 space-y-10 lg1:space-y-0 lg1:flex-row lg1:px-10 animate__animated animate__fadeIn">
+                <div className="flex flex-col my-5 space-x-5 space-y-10 lg1:space-y-0 lg1:flex-row lg1:px-10">
 
                     <div className="w-10/12 bg-slate-600 mx-auto shadow shadow-violet-400 sm:flex sm:flex-row">
                         <div className="w-auto sm:w-auto bg-slate-200 sm:flex sm:items-center sm:justify-center" >
@@ -65,7 +65,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 font-semibold animate__animated animate__fadeIn">
+                    <div className="w-10/12 mx-auto sm:flex sm:flex-row bg-slate-200 shadow shadow-violet-400 font-semibold">
                         <div className="flex flex-col items-center justify-center px-3 my-auto">
                             <h3 className="font-semibold my-3"><span className="text-red-400">Wash</span>ing Machine
                             </h3><hr className="w-60 my-0 mb-4" />

@@ -23,7 +23,7 @@ const Footer = () => {
     }
 
     return (
-        <div className="w-100 h-auto bg-gray-800 pt-24 text-white font-SourceSans animate animate__fadeInUp">
+        <div className="w-100 h-auto bg-gray-800 pt-24 text-white font-SourceSans">
             <div className="lg:w-10/12 mx-auto xl:px-32 lg:px-0 lg1:px-3">
                 <div className="mx-3 sm:mx-5 md:flex md:flex-row md:justify-between space-y-16 md:space-y-0">
                     <div className="flex flex-col w-fit h-auto sm:w-80 leading-loose">

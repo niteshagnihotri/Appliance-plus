@@ -1,4 +1,5 @@
 import Services from "./Services";
+import 'animate.css';
 
 function ServicesPage() {
     return (
