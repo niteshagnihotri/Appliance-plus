@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="sticky top-0 z-50 ">
+            <div className="w-100 sticky top-0 z-50 ">
                 <div className="md:bg-zinc-800">
                     <div className="hidden md:w-10/12 md:mx-auto md:flex md:justify-between md:items-center text-white">
                         <div className="py-3 pl-5 ">
@@ -25,7 +25,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white w-100 shadow-lg shadow-gray-300 ">
+                <div className=" bg-white w-100 shadow-lg shadow-gray-300 ">
                     <div className="bg-white md:w-10/12 mx-auto md:flex items-center justify-between font-QuickSand">
                         <div className="flex items-center justify-between">
                            <img className="w-56 p-0 m-0 lg1:ml-5 cursor-pointer" src={img1} onClick={()=>{history('/'); window.scrollTo(0)}} alt="applianceplus - best home appliances repair service in bhopal" />
@@ -36,8 +36,8 @@ const Header = () => {
                                 <HiOutlineMenuAlt3 onClick={() => { setshowNav(!showNav) }} className='md:hidden block w-10 h-auto p-2 mr-3 cursor-pointer' />
                             }
                         </div>
-                        <ul className={(showNav ? "left-0" : "-left-full") + " fixed md:static md:flex flex md:flex-row flex-col    xl:space-x-12 lg:space-x-6 md:space-y-0 md:space-x-5 space-y-10    md:w-auto w-10/12 md:my-auto  md:bg-transparent bg-gray-300 bg-opacity-90    py-4 pl-4 sm:pl-10 lg1:mr-3   bottom-0 top-16    md:text-lg text-xl font-bold   transition-left z-10"}>
-                            <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:px-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/" >Home</Link>
+                        <ul className={(showNav ? "left-0" : "-left-full") + " fixed md:static md:flex flex md:flex-row flex-col    xl:space-x-12 lg:space-x-6 md:space-y-0 md:space-x-5 space-y-10    md:w-auto w-10/12 md:my-auto  md:bg-transparent bg-gray-300 bg-opacity-90    py-4 pl-4 sm:pl-10 lg1:mr-3 mb-0  bottom-0 top-16    md:text-lg text-xl font-bold   transition-left z-10"}>
+                            <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:px-1 font-semibold  md:hover:bg-orange-300 hover:text-gray-600" to="/" >Home</Link>
                             <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:px-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/about">About Us</Link>
                             <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:px-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/services">Services</Link>
                             <Link onClick={()=>{setshowNav(false); window.scrollTo(0)}} className="no-underline text-gray-700 md:px-1 font-semibold md:hover:bg-orange-300 hover:text-gray-600" to="/contact">Contact</Link>

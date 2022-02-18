@@ -11,7 +11,7 @@ const ContactPage = lazy(() => import('./ContactPage'));
 const Routing = () => {
   return (
     <>
-      <Suspense fallback={<div className="loader text-center"><ClipLoader color={'#27B0D2'} size={50}/></div>}>
+      <Suspense fallback={<div className="loader text-center"><ClipLoader color={'#E01F11'} size={50}/></div>}>
       <Header/>
         <Routes>
           <Route exact path="/" element={<Home />} />

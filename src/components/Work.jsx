@@ -11,7 +11,7 @@ function Work() {
         <div className="w-100 h-auto flex items-center bg-slate-800 text-white lg1:py-14 py-5">
             <div className="lg:w-10/12 mx-auto">
                 <div className="flex flex-col-reverse lg1:flex-row">
-                    <motion.div initial={{x: -100, opacity:0}} whileInView={ {x: 0, opacity:1} } className="sm:mx-10 px-3">
+                    <motion.div initial={{x: -50, opacity:0}} whileInView={ {x: 0, opacity:1} } className="sm:mx-10 px-3">
                         <div className="mt-10 font-QuickSand text-left mb-5 border-b">
                             <h5 className="text-uppercase ">What We Do </h5>
                             <h3 className="py-3 text-4xl sm:text-5xl leading-tight font-Raleway">Why Choose Us </h3>
@@ -47,7 +47,7 @@ function Work() {
                         </div>
                     </motion.div>
  
-                    <motion.div initial={{x: 100,  opacity:0}} whileInView={ {x: 0,  opacity:1} } className="flex w-100 items-start mr-5 ">
+                    <motion.div initial={{y: 50,  opacity:0}} whileInView={ {y: 0,  opacity:1} } className="flex w-100 items-start mr-5 ">
                         <img src={img} className="h-100 w-auto" alt="Quick repair service in bhopal" />
                     </motion.div>
                 </div>

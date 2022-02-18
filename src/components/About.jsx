@@ -10,7 +10,7 @@ function About() {
             <div className="lg:w-10/12 mx-auto">
                 <div className="flex flex-col lg1:flex-row">
                     <motion.div className="lg1:w-11/12 items-start lg:mr-5" 
-                    initial={{x: -500}} whileInView={ {x: 0} } >
+                    initial={{x: -50, opacity:0}} whileInView={ {x: 0, opacity:1} } transition={{ delay: 0.3 }}>
                         <img src={img1} className="h-100" alt="Applianceplus - Home Electronic Repair Service in Bhopal" />
                     </motion.div>
                     <motion.div className="w-fit sm:mx-10 px-3" initial={{opacity: 0}} whileInView={ {opacity: 1} } transition={{ delay: 0.5 }} >
