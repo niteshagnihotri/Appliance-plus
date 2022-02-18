@@ -1,9 +1,8 @@
 import Services from "./Services";
-import 'animate.css';
 
 function ServicesPage() {
     return (
-        <div className="animate__animated animate__fadeInUp">
+        <div>
             <Services />
             <div className="bg-red-50 font-QuickSand px-4">
                 <div className="py-4 h-auto lg:w-10/12 mx-auto space-y-14">

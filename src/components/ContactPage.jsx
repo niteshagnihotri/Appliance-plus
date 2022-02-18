@@ -2,7 +2,7 @@ import Contact from "./Contact";
 
 function ContactPage(){
     return (
-        <div className="animate__animated animate__fadeInUp">
+        <div>
         <Contact/>
         </div>
     )

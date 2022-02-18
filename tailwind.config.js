@@ -18,7 +18,8 @@ module.exports = {
         "402":'402px',
       },
       transitionProperty:{
-        'left':'left'
+        'left':'left',
+        'right':'right'
       },
     },
   },

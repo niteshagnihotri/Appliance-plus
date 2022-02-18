@@ -5,6 +5,7 @@ import { ImLocation } from 'react-icons/im';
 import { MdOutlineMail } from 'react-icons/md';
 import { BsFillTelephoneForwardFill } from 'react-icons/bs';
 import emailjs from '@emailjs/browser';
+import { motion } from "framer-motion";
 
 const Contact = () => {
     const navigate = useNavigate();
@@ -64,7 +65,7 @@ const Contact = () => {
     return (
         <div className="contact w-100 py-0 h-auto font-Mont font-semibold">
             <div className="lg:w-10/12 mx-auto flex justify-center flex-col lg:flex-row ">
-                <div className="w-100 lg:col-5 py-14 flex justify-end mr-5">
+                <motion.div initial={{x: -100, opacity:0}} whileInView={ {x: 0, opacity:1} }  className="w-100 lg:col-5 py-14 flex justify-end mr-5">
                     <Form ref={contactform} className="w-10/12 sm:w-8/12 mx-auto lg:w-8/12 xl:min-w-10/12 xl:max-w-5xl bg-slate-200 px-6 xl:px-12 bg-opacity-90 py-10 lg:py-16 space-y-7 font-Raleway">
                         <h2 className="font-bold">Request A Service</h2>
                         <p>We're here to help your appliance repair service soon going to much easier to get your appliance fixed.</p>
@@ -84,11 +85,11 @@ const Contact = () => {
                             Submit
                         </Button>
                     </Form>
-                </div>
+                </motion.div>
                 <div className="col py-14 text-center bg-slate-800 lg:bg-transparent px-0 lg:px-12 bg-opacity-90 ">
-                    <h1 className="font-QuickSand mt-2 mr-10 text-red-100 font-bold text-4xl">Send Us Message</h1>
+                    <motion.h1 initial={{y: 50, opacity:0}} whileInView={ {y: 0, opacity:1} } className="font-QuickSand mt-2 mr-10 text-red-100 font-bold text-4xl">Send Us Message</motion.h1>
                     <div className="max-w-fit mx-auto mt-20 text-center space-y-10">
-                        <div className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
+                        <motion.div initial={{y: 50, opacity:0}} whileInView={ {y: 0, opacity:1} } className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
                             <div className="flex mr-2 sm:mx-4">
                                 <ImLocation className="text-2xl sm:text-3xl text-slate-300" />
                             </div>
@@ -96,8 +97,8 @@ const Contact = () => {
                                 <h3 className="font-SourceSans tracking-wide font-bold"> Address:</h3>
                                 <h4 className="font-Raleway font-bold">M.P Nagar, Bhopal M.P</h4>
                             </div>
-                        </div>
-                        <div className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
+                        </motion.div>
+                        <motion.div initial={{y: 50, opacity:0}} whileInView={ {y: 0, opacity:1} } className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
                             <div className="flex mr-2 sm:mx-4">
                                 <MdOutlineMail className="text-2xl sm:text-3xl text-slate-300" />
                             </div>
@@ -105,8 +106,8 @@ const Contact = () => {
                                 <h3 className="font-SourceSans font-bold"> Email:</h3>
                                 <h4 className="font-Mont text-xl flex-wrap font-bold cursor-pointer underline underline-offset-4" onClick={() => { window.location = 'mailto:applianceplus2022@gmail.com' }}>applianceplus2022@gmail.com</h4>
                             </div>
-                        </div>
-                        <div className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
+                        </motion.div>
+                        <motion.div initial={{y: 50, opacity:0}} whileInView={ {y: 0, opacity:1} } className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
                             <div className="flex mr-2 sm:mx-4">
                                 <BsFillTelephoneForwardFill className="text-xl sm:text-3xl text-slate-300" />
                             </div>
@@ -115,7 +116,7 @@ const Contact = () => {
                                 <h4 className="font-bold font-SourceSans cursor-pointer underline underline-offset-4" onClick={() => window.location = 'tel:+918871653988'}>+918871653988</h4>
 
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>
