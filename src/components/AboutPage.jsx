@@ -1,5 +1,7 @@
 import Companies from './Companies';
 import {Button} from 'react-bootstrap';
+import Work from './Work';
+import Solution from './Solution';
 
 function AboutPage() {
     return (
@@ -25,7 +27,9 @@ function AboutPage() {
                 </div>
             </div>
             </div>
+                    <Solution/>
                     <Companies />
+                    <Work/>
         </>
     )
 }
