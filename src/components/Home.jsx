@@ -1,8 +1,8 @@
 import Main from './Main';
-import About from './About';
+// import About from './About';
 import Services from './Services';
-import Work from './Work';
-import Solution from './Solution';
+// import Work from './Work';
+// import Solution from './Solution';
 import Qoute from './Qoute';
 import Contact from './Contact';
 
@@ -10,11 +10,11 @@ function Home(){
     return (
         <>
             <Main/>
-            <About/>
+            {/* <About/> */}
             <Services/>
-            <Work/>
+            {/* <Work/> */}
             <Qoute/>
-            <Solution/>
+            {/* <Solution/> */}
             {/* <Companies/> */}
             <Contact/>
         </>
