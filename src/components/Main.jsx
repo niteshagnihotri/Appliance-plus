@@ -8,7 +8,7 @@ const Main = () => {
 
     const br = useState(window.innerWidth <= 550 ? <br /> : null);
     const variants = {
-        hidden: { opacity: 0 },
+        hidden: { opacity: 0},
         visible: { opacity: 1 },
     }
 
