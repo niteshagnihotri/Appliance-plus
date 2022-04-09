@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className="flex flex-col w-fit h-auto sm:w-80 leading-loose">
                         <img src={img} alt="applianceplus" className=" w-56 p-0 m-0 lg1:ml-5" />
                         <p className="mt-4">
-                        Applianceplus was established in 2017, The owner is a master in the plumbing industry (All Home Electronics) having more than 10 years of experience in residential, commercial and industrial services. Our vision of the company grew from personal concerns about customer service depleting over the years, which he witnessed first-hand in companies he worked for.
+                        Applianceplus was established in 2017, The owner is a master in the electronics industry (All Home Electronics) having more than 10 years of experience in residential, commercial and industrial services. Our vision of the company grew from personal concerns about customer service depleting over the years, which he witnessed first-hand in companies he worked for.
                         </p>
                     </div>
                     <div className="flex flex-col space-y-10 lg1:px-5 ">
