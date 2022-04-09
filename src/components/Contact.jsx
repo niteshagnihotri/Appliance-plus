@@ -23,6 +23,7 @@ const Contact = () => {
                             <div className="text-left lg:pr-5">
                                 <h3 className="font-SourceSans tracking-wide font-bold"> Address:</h3>
                                 <h4 className="font-Raleway font-bold">M.P Nagar, Bhopal M.P</h4>
+                                <h4 className="font-Raleway font-bold">Vijay Nagar, Indore M.P</h4>
                             </div>
                         </motion.div>
                         <motion.div initial={{y: 50, opacity:0}} viewport={{ once: true }} whileInView={ {y: 0, opacity:1} } className="flex flex-row  bg-slate-800 bg-opacity-50 p-3 text-gray-200 hover:bg-opacity-80">
