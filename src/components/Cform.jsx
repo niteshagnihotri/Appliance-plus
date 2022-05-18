@@ -24,7 +24,7 @@ const Cform = () => {
 
     const SendData = async (e) => {
         e.preventDefault();
-        emailjs.send("service_g6w6lyb", "template_zm4262t", user, 'ErC2m7eIkoDoHOhLhDjY8');
+        emailjs.send("ap_mail", "cus_request", user, 'user_rmGsiRXH0q76p1YcmYG9g');
         const { name, email, phone, message } = user;
 
         await fetch('/submit', {
