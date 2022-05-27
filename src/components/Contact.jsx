@@ -41,7 +41,7 @@ const Contact = () => {
                             </div>
                             <div className="text-left lg:pr-5">
                                 <h3 className="font-SourceSans font-bold"> Contact:</h3>
-                                <h4 className="font-bold font-SourceSans cursor-pointer underline underline-offset-4" onClick={() => window.location = 'tel:+917224930506'}>+917224930506</h4>
+                                <h4 className="font-bold font-SourceSans cursor-pointer underline underline-offset-4" onClick={() => window.location = 'tel:+918871653988'}>+918871653988</h4>
 
                             </div>
                         </motion.div>

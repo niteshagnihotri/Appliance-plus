@@ -23,7 +23,7 @@ function AboutPage() {
                         <h3 className="font-bold">Our Motto : Take Action in Daily Situations to Ensure Our Client Is Well-Informed and Pleased</h3>
                         <p>At Applianceplus, you will find that you not only receive excellent (superior) service but that someone is always reachable when you need us. To us, that’s all part of “Making it Happen.” Call us today to find out how we can help you with all of your Home Electronics needs.</p>
                     </div>     
-                    <Button onClick={()=>window.location = 'tel:+917224930506'} variant="danger">Call +917224930506 </Button>
+                    <Button onClick={()=>window.location = 'tel:+918871653988'} variant="danger">Call +918871653988 </Button>
                 </div>
             </div>
             </div>
