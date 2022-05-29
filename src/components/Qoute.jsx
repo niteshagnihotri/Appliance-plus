@@ -11,7 +11,7 @@ const Quote = () => {
                         Progressive. Professional. Personal.
                     </h1>
                     <h4>Entrust us with your Appliance repair and you will not be dissapointed !</h4>
-                    <button onClick={() => window.location = 'tel:+918871653988'} className="btn btn-danger shadow-md shadow-red-800">Call2Action</button>
+                    <button onClick={() => window.location = 'tel:+918982873457'} className="btn btn-danger shadow-md shadow-red-800">Call2Action</button>
                 </div>
             </div>
         </div>

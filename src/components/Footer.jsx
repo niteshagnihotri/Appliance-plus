@@ -54,7 +54,7 @@ const Footer = () => {
                             </Button>
                         </Form>
                         <div>
-                            <span className="text-2xl">Available 24 X 7 -  <Link to="" style={{ textDecoration: "underline gray", color: "white" }} className='hover:text-slate-400 underline-offset-4' onClick={() => window.location = 'tel:+918871653988'}>+918871653988</Link></span>
+                            <span className="text-2xl">Available 24 X 7 -  <Link to="" style={{ textDecoration: "underline gray", color: "white" }} className='hover:text-slate-400 underline-offset-4' onClick={() => window.location = 'tel:+918982873457'}>+918982873457</Link></span>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const Header = () => {
                     <div className="hidden md:w-10/12 md:mx-auto md:flex md:justify-between md:items-center text-white">
                         <div className="py-3 pl-5 ">
                             <i class="fa fa-phone px-2 text-yellow-400" style={{ "font-size": "16px" }}></i>
-                            <Link to="" style={{ textDecoration: "none", color: "white" }} className='hover:text-slate-400' onClick={() => window.location = 'tel:+918871653988'}>+918871653988</Link>
+                            <Link to="" style={{ textDecoration: "none", color: "white" }} className='hover:text-slate-400' onClick={() => window.location = 'tel:+918982873457'}>+918982873457</Link>
                         </div>
                         <div className="py-2 pr-5 text-right font-QuickSand">
                             <i class="fa fa-envelope px-2 text-yellow-500" style={{ "font-size": "14px" }}></i>
@@ -44,7 +44,7 @@ const Header = () => {
                             <div className='md:hidden bottom-10 absolute font-semibold space-y-5 -translate-x-3'>
                                 <div>
                                     <i class="fa fa-phone px-2 text-black" style={{ "font-size": "16px" }}></i>
-                                    <span onClick={() => window.location = 'tel:+918871653988'}>+918871653988</span>
+                                    <span onClick={() => window.location = 'tel:+918982873457'}>+918982873457</span>
                                 </div>
                                 <div>
                                     <i class="fa fa-envelope px-2 text-black" style={{ "font-size": "14px" }}></i>
